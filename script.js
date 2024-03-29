@@ -11,7 +11,7 @@ tombol_iya.addEventListener('click', ()=> {
   judul_konten.innerHTML = "Anda Berbohong!";
   teks_desc.innerHTML = "Anda adalah seorang Teknisi";
   kotak.style.backgroundColor = "#E12E2E";
-  gambar.src = "Assets/teknisi.png";
+  gambar.src = "Assets/Teknisi.png";
   tombol_tombol.style.display = 'none';
   konten.classList.add("animasi-fadeIn");
 });
@@ -20,7 +20,7 @@ tombol_tidak.addEventListener('click', ()=> {
   judul_konten.innerHTML = "Anda Benar!";
   teks_desc.innerHTML = "Anda adalah seorang Mahasiswa";
   kotak.style.backgroundColor = "#6FD240"
-  gambar.src = "Assets/mahasiswa.png";
+  gambar.src = "Assets/Mahasiswa.png";
   tombol_tombol.style.display = 'none';
   konten.classList.add("animasi-fadeIn");
 });
